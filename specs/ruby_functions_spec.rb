@@ -3,7 +3,8 @@
 require( 'minitest/autorun' )
 require_relative( '../ruby_functions_practice' )
 
-/I think I could have done this with the Time class (as used in the test suite) but I initially started by incuding the 'date' class from Google research):/
+/I think I could have done this with the Time class (as used in the test suite) but I initially started by incuding the 'date' class from Google research:/
+
 require 'date'
 
 class Functions_Practice < MiniTest::Test
