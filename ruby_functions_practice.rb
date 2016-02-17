@@ -80,8 +80,8 @@ end
 
 /age_of_person - takes a date as a parameter and returns the persons age in years/
 def age_of_person(birth_date)
-  current_year = Time.new.year.to_int
-  birth_year = birth_date.year.to_int
+  current_year = Time.new.year
+  birth_year = birth_date.year
   return current_year-birth_year
 
 end
