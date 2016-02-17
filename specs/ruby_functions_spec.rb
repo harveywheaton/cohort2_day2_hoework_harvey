@@ -92,6 +92,8 @@ class Functions_Practice < MiniTest::Test
       assert_equal(66,days_to_xmas)
       days_to_xmas=days_until_christmas(Date.parse('1st Jan 2015'))
       assert_equal(724,days_to_xmas)
+      days_to_xmas=days_until_christmas(Date.parse('26th Dec 2016'))
+      assert_equal(364,days_to_xmas)
 
   end
 

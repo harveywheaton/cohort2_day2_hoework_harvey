@@ -68,7 +68,7 @@ def days_until_christmas(start_date)
   current_date = Time.new
   current_year=current_date.year
 
-  if current_date.month == 12 && current_date.day >25 then
+  if start_date.month == 12 && start_date.day >25 && start_date.year == current_date.year then
     current_year=current_year+1
   end
 
